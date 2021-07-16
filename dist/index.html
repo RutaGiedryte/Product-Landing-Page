@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<hmtl lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="css/simple-lightbox.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b28d6f6dff.js" crossorigin="anonymous"></script>
+
+        <title>YouPhone - The Phone of Your Dreams</title>
+    </head>
+    
+    <body id="home">
+    
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">YouPhone</h1>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section class="section-a">
+            <div class="container">
+                <div>
+                    <h1>The Phone of Your <b>Dreams</b></h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam id, nam facilis sequi minima fugiat modi sint est explicabo animi.</p>
+                    <a href="#" class="button">Read more</a>
+                </div>
+                <img src="img/showcase.jpg" alt=""> 
+            </div>
+        </section>
+
+        <!-- Overlay -->
+        <section class="section-b">
+            <div class="overlay">
+                <div class="section-b-inner">
+                    <h3>Smart & Perfect</h3>
+                    <h2>People Aren't Living Their Best Without It</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero veritatis nam vitae, tempore esse ab. Non itaque est quam ex?</p>
+                </div> 
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section-c">
+            <div class="gallery">
+                <a href="img/a.jpg" class="big"><img src="img/a.jpg" alt=""></a>
+                <a href="img/b.jpg" class="big"><img src="img/b.jpg" alt=""></a>
+                <a href="img/c.jpg" class="big"><img src="img/c.jpg" alt=""></a>
+                <a href="img/d.jpg" class="big"><img src="img/d.jpg" alt=""></a>
+                <a href="img/e.jpg" class="big"><img src="img/e.jpg" alt=""></a>
+                <a href="img/f.jpg" class="big"><img src="img/f.jpg" alt=""></a>
+            </div>                
+        </section>
+
+        <!-- Footer -->
+        <footer class="section-footer">
+            <div class="container">
+                <div>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <a href="www.twitter.com">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="www.facebook.com">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="www.instagram.com">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+                <div>
+                    <h3>Company info</h3>
+                    <ul>
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Blog posts</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Subscribe</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <form name="email-form" method="POST" data-netlify="true">
+                        <div class="email-form">
+                            <span class="form-control-wrap">
+                                <input 
+                                    type="email" 
+                                    name="email" 
+                                    id="email" 
+                                    size="40" 
+                                    class="form-control" 
+                                    placeholder="Email"
+                                />
+                            </span>
+                            <button type="submit" class="form-control submit">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/simple-lightbox.js"></script>
+        <script>
+            const lightbox = new SimpleLightbox('.gallery a');
+        </script>
+        
+
+    </body>
+</hmtl>
